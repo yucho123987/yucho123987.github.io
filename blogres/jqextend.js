@@ -1,3 +1,4 @@
+try{
 $.extend({
 loadScript:function(src,onload){
 var js=document.createElement("script");
@@ -25,3 +26,6 @@ return false;
 }
 }
 });
+}catch(e){
+alert(e)
+}
