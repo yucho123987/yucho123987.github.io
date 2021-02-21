@@ -13,6 +13,15 @@ code(array[i])
 },
 isMobile:function(){
 var mobileua=["android","ios"];
-alert(mobileua[0])
+for(i=0;i<mobileua.length;i++){
+if(window.navigator.userAgent.toLowerCase().indexOf(mobileua[i])){
+var mo=true
+}
+}
+if(mo==true){
+return true
+}else{
+return false
+}
 }
 });
