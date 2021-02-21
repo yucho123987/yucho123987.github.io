@@ -13,19 +13,9 @@ code(array[i])
 }
 },
 isMobile:function(){
-var mobile=["android","ios","strawberry"];
-for(i=0;i<mobile.length;i++){
-if(window.navigator.userAgent.toLowerCase().indexOf(mobile[i])>-1){
-var ismobi=true;
-}
-}
-if(ismobi){
-return true;
-}else{
-return false;
-}
-}
-});
+var mobile_ua=["android","ios"];
+alert(mobile_ua[0])
+}});
 }catch(e){
 alert(e)
 }
