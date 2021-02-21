@@ -1,4 +1,3 @@
-try{
 $.extend({
 loadScript:function(src,onload){
 var js=document.createElement("script");
@@ -13,9 +12,7 @@ code(array[i])
 }
 },
 isMobile:function(){
-var mobile_ua=["android","ios"];
-alert(mobile_ua[0])
-}});
-}catch(e){
-alert(e)
+var mobileua=["android","ios"];
+alert(mobileua[0])
 }
+});
