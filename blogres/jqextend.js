@@ -15,10 +15,10 @@ isMobile:function(){
 var mobile=["android","ios","strawberry"];
 for(i=0;i<mobile.length;i++){
 if(window.navigator.userAgent.toLowerCase().indexOf(mobile[i])>-1){
-var ismobi=true
+var ismobi=true;
 }
 }
-if(ismobi==true){
+if(ismobi){
 return true;
 }else{
 return false;
