@@ -1,0 +1,37 @@
+@font-face{
+  font-family: "DroidSansMono";
+  src: url('DroidSansMono.ttf') format('truetype');
+}@keyframes typed{
+  0% {opacity:1;}
+  50% {opacity:0;}
+  100% {opacity:1;}
+}@-webkit-keyframes typed{
+  0% {opacity:1;}
+  50% {opacity:0;}
+  100% {opacity:1;}
+}body{
+  margin: 0px;
+  padding: 0px;
+  font-family: "DroidSansMono";
+}#main{
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  color: white;
+  box-sizing: border-box;
+  padding: 10px;
+}.typing:after,.typed:after{
+  content: '';
+  display: inline-block;
+  width: 8px;
+  height: 18px;
+  background-color: white;
+  vertical-align: middle;
+  margin-left: 3px;
+}.typed:after{
+  opacity: 1;
+  animation: typed 0.5s infinite;
+  -webkit-animation: typed 0.5s infinite;
+}.select{
+  text-decoration: underline;
+}
