@@ -17,7 +17,7 @@ var action={
       }else{
         mainElement.innerHTML=`<span class="typed">${tip}</span>`;
         setTimeout(function(){
-          mainElement.innerHTML+=`</br></br><div class="select">View my works</div><div class="select">See my blog</div><div class="select">About me</div><center>&copy;2022 Yucho</center>`;
+          mainElement.innerHTML+=`</br></br><div class="select">View my works</div><div class="select">See my blog</div><div class="select">About me</div><center>&copy;202 Yucho</center>`;
           action.setSelectClick(function(id){
             if(id==0){
               action.showWorks();
@@ -28,7 +28,7 @@ var action={
             });
             }else if(id==2){
               action.showCmdTypingAnimation(cmd[2],function(){
-                mainElement.innerHTML+='<div>A 17-year-old senior high school student.Loves IT.</div><div class="select" onclick="action.showWelcomePage();">[Back]</div>';
+                mainElement.innerHTML+='<div>There is nothing.</div><div class="select" onclick="action.showWelcomePage();">[Back]</div>';
               })
             }
           });
